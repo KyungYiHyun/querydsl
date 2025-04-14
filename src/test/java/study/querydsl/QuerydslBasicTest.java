@@ -626,6 +626,8 @@ public class QuerydslBasicTest {
 //                .where(allEq(usernameCond,ageCond))
                 .fetch();
 
+
+
     }
 
     private BooleanExpression ageEq(Integer ageCond) {
